@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+   <children>
+      <Label layoutX="21.0" layoutY="28.0" text="Элемент" />
+      <Label layoutX="11.0" layoutY="73.0" text="Приоритет" />
+      <TextField fx:id="tfValue" layoutX="94.0" layoutY="17.0" prefHeight="36.0" prefWidth="240.0" />
+      <TextField fx:id="tfPriority" layoutX="94.0" layoutY="61.0" prefHeight="36.0" prefWidth="240.0" />
+      <Button fx:id="btAdd" layoutX="29.0" layoutY="106.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="305.0" text="Добавить" />
+      <Button fx:id="btExtract" layoutX="29.0" layoutY="158.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="305.0" text="Извлечь элемент с минимальным приоритетом" />
+      <Button fx:id="btFind" layoutX="29.0" layoutY="203.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="305.0" text="Найти элемент с минимальным приоритетом" />
+      <TextField fx:id="lblRes" editable="false" layoutX="33.0" layoutY="267.0" prefHeight="63.0" prefWidth="298.0" />
+      <TextArea fx:id="tvElems" editable="false" layoutX="349.0" layoutY="17.0" prefHeight="318.0" prefWidth="391.0" />
+   </children>
+</AnchorPane>
